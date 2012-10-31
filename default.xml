@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="https://github.com/matson-hall/" name="matson-hall" />
+  <remote fetch="https://github.com/linux-sunxi/" name="linux-sunxi" />
 
   <project name="allwinner-buildroot" remote="matson-hall" revision="cubieboard" />
   <project name="allwinner-pack-tools" remote="matson-hall" revision="cubieboard" />
-  <project name="linux-allwinner" remote="matson-hall" revision="cubieboard" />
+  <project name="linux-sunxi" path="kernel" remote="linux-sunxi" revision="master" />
 </manifest>
